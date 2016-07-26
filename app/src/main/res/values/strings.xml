@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Euphony</string>
+    <string name="facebook_app_id">243367606030131</string>
+    <string name="drawer_open">opened</string>
+    <string name="drawer_close">closed</string>
+    <string name="error_string">Sorry!! It seems there\'s some problem reaching our server. Please check your Internet connection!!</string>
+</resources>

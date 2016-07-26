@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        android:text="Who Are You?"
+        android:typeface="serif"
+        android:scaleX="1.2"
+        android:scaleY="1.1"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textColor="#b5ffffff"/>
+    <LinearLayout
+        android:id="@+id/choices"
+        android:layout_below="@id/ask"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:text="Artist"
+            android:background="#20BAF5"
+            android:gravity="center"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
+        <TextView
+            android:id="@+id/venue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#ffffff"
+            android:text="Venue"
+            android:background="@drawable/round_rec_bound"
+            android:gravity="center"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/form_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/choices"
+        android:layout_marginTop="50dp">
+    </LinearLayout>
+</RelativeLayout>
+    </ScrollView>

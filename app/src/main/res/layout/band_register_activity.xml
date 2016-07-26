@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="New Band"
+        android:layout_marginTop="20dp"
+        android:background="#20BAF5"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"/>
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="26dp"
+        android:padding="10dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/selector"
+        android:src="@drawable/ic_back" />
+    <LinearLayout
+        android:id="@+id/band_form_container"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/type"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:id="@+id/circle1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle_blue"/>
+
+        <ImageView
+            android:id="@+id/circle2"
+            android:layout_marginLeft="7dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle_white"/>
+
+        <ImageView
+            android:id="@+id/circle3"
+            android:layout_marginLeft="7dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle_white"/>
+    </LinearLayout>
+</RelativeLayout>
+    </ScrollView>

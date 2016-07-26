@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/band_view"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/no_band"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#20baf5"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:typeface="sans"
+        android:visibility="gone"
+        android:text="Oh! No Bands Yet! \nAdd Your first Band"/>
+
+    <TextView
+        android:id="@+id/first_band"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e90000"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:typeface="sans"
+        android:layout_centerHorizontal="true"
+        android:text="here"
+        android:textStyle="bold"
+        android:layout_below="@id/no_band"
+        />
+    <RelativeLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="gone">
+        <com.rey.material.widget.ProgressView
+            android:id="@+id/loader"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:pv_autostart="true"
+            app:pv_circular="true"
+            app:pv_progressMode="indeterminate"
+            app:cpd_strokeColor="#20baf5"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#20baf5"
+            android:layout_below="@id/loader"
+            android:text="Retrieving Bands list"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:typeface="sans"
+            android:alpha="0.7"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/first_time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/fist_time_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#20baf5"
+            android:layout_centerInParent="true"
+            android:text="No City Selected!! Select a City to search Bands"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:gravity="center"
+            android:typeface="sans"
+            android:alpha="0.7"/>
+        </RelativeLayout>
+</RelativeLayout>

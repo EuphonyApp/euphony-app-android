@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "45086421271",
+    "firebase_url": "https://euphony-dd892.firebaseio.com",
+    "project_id": "euphony-dd892",
+    "storage_bucket": "euphony-dd892.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45086421271:android:224a9d8607822d60",
+        "android_client_info": {
+          "package_name": "euphony.com.euphony"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45086421271-5uao9n783tl0e154ubni8hb0rak39pvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "euphony.com.euphony",
+            "certificate_hash": "E476D226E47CE39033D8D943E671B8DC51A540FF"
+          }
+        },
+        {
+          "client_id": "45086421271-ufubuct9s1krrjduf3loin3acjmcbabv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "45086421271-7rert7kmhcc745p87e253k8ubtalj4mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ-c3G58BmxUfxL3xPNpV5aefkwzn5dJo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45086421271-ufubuct9s1krrjduf3loin3acjmcbabv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
